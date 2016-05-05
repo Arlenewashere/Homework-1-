@@ -1,0 +1,43 @@
+package assignment1;
+
+import java.util.Scanner;
+public class Assignment1 {
+
+public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+int x, y, v, w, d;
+
+System.out.print("Enter an Integar: ");
+x = input.nextInt();
+System.out.print("Enter an Integar: ");
+y = input.nextInt();
+System.out.print("Enter an Integar: ");
+v = input.nextInt();
+System.out.print("Enter an Integar: ");
+w = input.nextInt();
+System.out.print("Enter an Integar: ");
+d = input.nextInt();
+
+    if ( x < y)
+         x=y;
+   
+    if ( y < v)
+        y=v;
+   
+    if ( v < w)
+        v=w;
+   
+    if ( w< d)
+        w=d;
+       
+            
+            
+            
+      System.out.print("The integars in largest to smallest:\n ");
+      System.out.printf("%d, ",x);
+      System.out.printf("%d, ",y);
+      System.out.printf("%d, ",v);
+      System.out.printf("%d, ",w);
+      System.out.printf("%d\n",d);
+}
+}
